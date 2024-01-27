@@ -1,0 +1,1 @@
+//  NPM is a package manager for Node.js packages, or modules
