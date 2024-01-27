@@ -6,6 +6,10 @@ const port = 3000
 app.get('/', (req, res) => {
   res.send('Hello World! home page')
 })
+app.get('/about', (req, res) => {
+    res.send('Hello World! about page')
+  })
+  
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
